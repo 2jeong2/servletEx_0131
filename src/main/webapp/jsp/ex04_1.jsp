@@ -3,6 +3,8 @@
     <%@ page import = "java.util.List" %> 
     <%@ page import = "java.util.ArrayList" %>
     <%@ page import = "java.util.HashMap" %>
+    <%@ page import = "java.util.Map" %>
+    <%@ page import = "java.util.Set" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,7 +64,7 @@ scores.put("영어",100);
 		}
 	%>
 	<tr>
-		<td><%=name %></td>
+		<td><%= name %></td>
 		<td><%=scores.get(name) %></td>
 	</tr>
 	

@@ -60,13 +60,13 @@ scores.put("영어",100);
 	<%
 		Set<String>keys = scores.keySet();
 		for(String name: keys){
-			
-		}
 	%>
+			
 	<tr>
 		<td><%= name %></td>
 		<td><%=scores.get(name) %></td>
 	</tr>
+		<% }%>
 	
 		<tr>
 			<td>국어</td>
